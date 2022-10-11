@@ -15,10 +15,6 @@ import lombok.NoArgsConstructor;
 @Entity
 @Table(name = "BANK_TABLE")
 public class Bank {
-	
-//	public static final String BOOTSTRAP_SERVERS_CONFIG = null;
-//	public static final String KEY_SERIALIZER_CLASS_CONFIG = null;
-//	public static final String VALUE_SERIALIZER_CLASS_CONFIG = null;
 	@Id
 	@GeneratedValue
 	private int id;
